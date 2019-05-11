@@ -1,0 +1,9 @@
+{
+    "name": "cloud-config-service",
+    "protocol": "http:",
+    "host": "localhost",
+    "port": "8787",
+    "cloudHub": "http://localhost:6080",
+    "username": "test",
+    "password": "123456"
+}
