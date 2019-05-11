@@ -1,18 +1,18 @@
 {
-    "name": "app-service-config",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "scripts": {},
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ada-cloud/template-service-of-config.git"
-    },
-    "author": "",
-    "license": "",
-    "dependencies": {
-        "ada-cloud-boot": "0.0.1",
-        "ada-util": "^1.0.0-beta.2",
-        "koa-router": "^7.4.0"
-    }
+  "name": "app-service-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ada-cloud/template-service-of-config.git"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "ada-cloud-boot": "0.0.7",
+    "ada-util": "^1.0.0-beta.2",
+    "koa-router": "^7.4.0"
+  }
 }
