@@ -12,9 +12,9 @@ router.get('/get', ({ request, response, provider, result }) => {
         response.body = JSON.stringify(result.getErrorResult().getResponseData());
     });
 });
-router.get('/update', ({ hub, response, provider, result }) => {
+router.get('/update', ({ channel, response, provider, result }) => {
     return provider.update().then(() => {
-        return hub.postBroadcastMessage('cloud-config-change').then(() => {
+        return channel.postBroadcastMessage('cloud-config-change').then(() => {
             response.body = JSON.stringify(result.getSuccessResult().getResponseData());
         }).catch(e => {
             response.body = JSON.stringify(result.getErrorResult().getResponseData());
