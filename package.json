@@ -11,8 +11,8 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "ada-cloud-boot": "0.0.11",
-    "ada-util": "^1.0.0-beta.2",
-    "koa-router": "^7.4.0"
+    "ada-cloud-hub": "latest",
+    "ada-cloud-util": "latest",
+    "ada-util": "^1.0.0-beta.2"
   }
 }
