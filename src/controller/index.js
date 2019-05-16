@@ -14,6 +14,7 @@ class ConfigController extends Controller {
             return this.success(JSON.parse(content));
         });
     }
+    
     update({ channel, provider }) {
         return provider.update().then(() => {
             return channel.postBroadcastMessage('cloud-config-change').then(() => {
